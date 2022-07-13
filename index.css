@@ -1,0 +1,41 @@
+
+body {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #66FF00;
+    font-size: 100px;
+    font-family: 'Allerta Stencil'
+    ;
+    letter-spacing: 7px;
+    
+}
+
+@media (max-width: 1250px) {
+    .clock {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 865px) {
+    .clock {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 560px) {
+    .clock {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 560px) {
+    .clock {
+        font-size: 15px;
+    }
+}
