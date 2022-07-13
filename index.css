@@ -10,10 +10,8 @@ body {
     transform: translateX(-50%) translateY(-50%);
     color: #66FF00;
     font-size: 100px;
-    font-family: 'Allerta Stencil'
-    ;
+    font-family: 'Allerta Stencil';
     letter-spacing: 7px;
-    
 }
 
 @media (max-width: 1400px) {
