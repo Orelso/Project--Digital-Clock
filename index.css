@@ -16,26 +16,38 @@ body {
     
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1400px) {
     .clock {
         font-size: 65px;
     }
 }
 
-@media (max-width: 865px) {
+@media (max-width: 940px) {
     .clock {
         font-size: 36px;
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
     .clock {
-        font-size: 22px;
+        font-size: 28px;
     }
 }
 
 @media (max-width: 560px) {
     .clock {
-        font-size: 15px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .clock {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .clock {
+        font-size: 13px;
     }
 }
